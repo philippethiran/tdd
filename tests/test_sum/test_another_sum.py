@@ -8,7 +8,7 @@ class MyTestCase(unittest.TestCase):
     def test_add_3(self):
         assert add_10(3) == 13
         
-   def test_add_neg(self):
+    def test_add_neg(self):
         assert add_10(-3) == 7
 
 if __name__ == '__main__':
